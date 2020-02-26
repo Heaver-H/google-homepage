@@ -33,19 +33,46 @@
   .lists1{
     display: flex;
     justify-content: space-between;
+    line-height: 29px;
+    
   }
   
   #Store{
-    margin-right: 20px;
+    margin: 0px 20px 0px 5px;
+  }
+  
+  #About{
+    margin: 0px 20px 0px 5px;
   }
 
   #Home{
-    margin-right: 20px;
+    margin: 0px 20px 0px 5px;
+  }
+  
+  #Gmail{
+    margin: 0px 20px 0px 5px;
+  }
+  
+  #right-side{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #Sign-in{
+    display: inline-block;
+    width: 50px;
+    height:15px;
+    background-image: linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 5px 8px 5px 15px;
   }
   
   .lists2{
     display: flex;
     justify-content: space-between;
+    line-height: 29px;
   }
   
   #Business{
@@ -55,6 +82,7 @@
   #Terms{
     margin: 0px 20px 0px 20px;
   }
+  
   li a{
     display: inline-block;
     text-decoration: none;
@@ -79,9 +107,14 @@
   }
   
   #searchbar {
+    background-color: rgb(255, 255, 255);
     margin-bottom: 30px;
     width: 40%;
-    height: 20%;
+    height: 25px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
     align-self: center;
   }
   </style>
@@ -92,11 +125,13 @@
     <li id="Store"> <a href=https://store.google.com/DE/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-DE>Store</a></li>
     <li id="About"> <a href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">About</a></li>
   </ul>
-  
+    
+  <div id="right-side">
   <ul>
     <li id="Home"> <a href="https://www.google.com/">Home</a></li>
     <li id="Gmail"> <a href="https://mail.google.com/mail">Gmail</a></li>
-  </ul>
+</ul>
+<input id="Sign-in" value="Sign in"     </div>
   </header>
   
   <div class="container">
